@@ -57,7 +57,7 @@ const AddNotes = (props) => {
     const updatedNotesData = [...notesData];
     updatedNotesData.push(data);
     setNotesData(updatedNotesData);
-    const json = JSON.stringify(data);
+    // const json = JSON.stringify(data);
   };
 
   return (

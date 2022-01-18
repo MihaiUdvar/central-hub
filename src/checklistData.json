@@ -1,0 +1,18 @@
+[
+      {
+         "id":"1",
+         "name":"some checkbox with random naming",
+         "completed": false  
+      },
+      {
+         "id":"2",
+         "name":"list item example",
+         "completed": false  
+      },
+      {
+         "id":"3",
+         "name":"todo today list item",
+         "completed": true  
+      }
+  
+]

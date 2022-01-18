@@ -24,7 +24,7 @@ const TableList = () => {
     const updatedLinksData = [...tableData];
     updatedLinksData.push(data);
     setTableData(updatedLinksData);
-    const json = JSON.stringify(data);
+    // const json = JSON.stringify(data);
   };
 
   return (
