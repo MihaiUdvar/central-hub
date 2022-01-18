@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Table } from 'react-bootstrap';
-import AddBookmarkForm from './forms/AddBookmarkForm';
-import bookmarksData from '../bookmarksData.json';
+import AddBookmarkForm from '../forms/AddBookmarkForm';
+import bookmarksData from '../../bookmarksData.json';
 import uuid from 'react-uuid';
 
-const TableList = () => {
+const Bookmarks = () => {
   const [tableData, setTableData] = useState(bookmarksData);
 
   const tableRows = tableData.map((info) => {
@@ -44,4 +44,4 @@ const TableList = () => {
   );
 };
 
-export default TableList;
+export default Bookmarks;
